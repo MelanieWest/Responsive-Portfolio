@@ -10,18 +10,17 @@
 </head>
 <body>
 
-  <header class = "strip">
-    <div class="container">
-        <a href="index.html" id="logo">Melanie West</a>
-      <nav>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-        <a href="index.html">About</a>
-      </nav>
-    </div>
-  </header>
-
-  <header> Melanie West</header>
+ 
+<div class="strip">
+    <a href="index.html" id="logo">Melanie West</a>
+        <nav>
+            <ul id = "pglinks">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</div> 
 
   <form>
     Name:<br>
@@ -31,17 +30,20 @@
     <br>
     <label for="message">Message</label>
     <br>
-    <textarea id="message" name="message" required="required"></textarea>
+    <textarea id="message" name="message" rows = "7" cols = "25" required="required"></textarea>
     <br>
     <input type="submit" value="Submit">
   </form>
 
     <div class = "connections">
         <h1> Connect </h1>
+        <div id = "conbox">
         <img id = "cgh" src="assets/images/GitHub.png" alt="GitHub">
         <img id = "cli" src="assets/images/Linkedin_001.jpg" alt="LinkedIn">
         <img id = "cso" src="assets/images/stack.png" alt="StackOverflow">
+        </div>
     </div>
+
     <footer> &copy 2017 </footer>
 </body>
 </html>
